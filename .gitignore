@@ -295,3 +295,6 @@ inmo2/.vs/config/applicationhost.config
 inmo2/.vs/inmo2/v15/Server/sqlite3/storage.ide-shm
 inmo2/.vs/inmo2/v15/Server/sqlite3/storage.ide-wal
 inmo2/.vs/inmo2/v15/.suo
+inmo2/inmo2/bin/inmo2.dll
+inmo2/inmo2/bin/inmo2.pdb
+inmo2/inmo2/inmo2.csproj

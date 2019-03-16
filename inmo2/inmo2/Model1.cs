@@ -20,7 +20,6 @@ namespace inmo2
             
         }
         public DbSet<Imagenes> Imagenes { get; set; }
-        public DbSet<PropiedadesImagenes> PropiedadesImagenes { get; set; }
         public DbSet<Propiedades> Propiedades { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
     }

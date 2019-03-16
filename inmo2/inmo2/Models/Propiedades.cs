@@ -15,7 +15,7 @@ namespace inmo2.Models
         public int Personas { set; get; }
         public decimal Precio { set; get; }
         public string Imagen { set; get; }
-
-        public virtual ICollection<PropiedadesImagenes> PropiedadesImagenes { get; set; }
+        public virtual ICollection<Imagenes> Imagenes { get; set; }
+        
     }
 }

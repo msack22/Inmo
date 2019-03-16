@@ -10,8 +10,9 @@ namespace inmo2.Models
         public int Id { get; set; }
         public string nombre { get; set; }
         public string almacenada { get; set; }
-
-        public virtual ICollection<PropiedadesImagenes> PropiedadesImagenes{ get; set; }
+        public int PropiedadesId { get; set; }
+        public virtual Propiedades Propiedades { get; set; }
+        
 
     }
 }
